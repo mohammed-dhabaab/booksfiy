@@ -163,8 +163,8 @@ function Registration() {
                     <p className='text-red-500 mb-2'>{validationMessage}</p>
                     <div className='flex flex-col gap-4'>
 
-                        <input value={login.email} required onChange={(e) => setLogin({ ...login, email: e.target.value })} type="email" placeholder="Email" className="input input-bordered w-full max-w-xs" />
-                        <input value={login.password} onChange={(e) => setLogin({ ...login, password: e.target.value })} type="password" placeholder="Password" className="input input-bordered w-full max-w-xs" />
+                        <input value={login.email} required onChange={(e) => setLogin({ ...login, email: e.target.value })} type="email" placeholder="Email" className="input input-bordered w-full max-w-xl" />
+                        <input value={login.password} onChange={(e) => setLogin({ ...login, password: e.target.value })} type="password" placeholder="Password" className="input input-bordered w-full max-w-xl" />
 
                         <div className='flex flex-col mt-4'>
                             <button onClick={loginUser} type="button" className="w-full shadow-xl py-3 px-6 text-sm text-gray-800 font-semibold rounded-md bg-accent hover:opacity-90 transition-all duration-400 ease-in-out focus:outline-none">
