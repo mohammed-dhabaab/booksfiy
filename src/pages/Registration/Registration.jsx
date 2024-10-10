@@ -158,7 +158,7 @@ function Registration() {
                 </div>
 
 
-                <div className={`${registrationType == "login" ? "flex" : "hidden"} flex-col `}>
+                <div className={`${registrationType == "login" ? "flex" : "hidden"} flex-col sm:min-w-[400px]`}>
                     <h1 className='text-3xl sm:text-4xl font-bold mb-6'>Log In</h1>
                     <p className='text-red-500 mb-2'>{validationMessage}</p>
                     <div className='flex flex-col gap-4'>

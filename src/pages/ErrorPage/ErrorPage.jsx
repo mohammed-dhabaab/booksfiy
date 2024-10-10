@@ -14,7 +14,7 @@ export default function ErrorPage() {
                         <i>{error.statusText || error.message}</i>
                     </p>
 
-                    <Link to={"/home"} className="btn btn-primary mt-4" >Home</Link>
+                    {/* <Link to={"/home"} className="btn btn-primary mt-4" >Home</Link> */}
                 </div>
             </div>
         </main>
