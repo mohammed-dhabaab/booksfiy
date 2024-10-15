@@ -59,7 +59,7 @@ Booksfiy is a web application that integrates APIs, allowing users to explore a 
 
 
 ## 🔍 Explore The Project
-- [Messgestix](https://messgestix.netlify.app/)
+- [Booksfiy](https://booksfiy.netlify.app/)
 
 ## 🎫 Dependencies
 
