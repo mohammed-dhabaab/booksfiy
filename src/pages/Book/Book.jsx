@@ -115,8 +115,8 @@ function Book() {
                 <h1 className='text-3xl sm:text-4xl font-bold mx-auto text-center mb-8'>Book Details</h1>
 
                 {book && (
-                    <div className="card bg-base-100 w-96 shadow-xl mx-auto border border-slate-800">
-                        <div className='max-h-[400px] pt-5 overflow-hidden'>
+                    <div className="card bg-base-100 max-w-96 shadow-xl mx-auto border border-slate-800">
+                        <div className=' pt-5 px-5 overflow-hidden'>
                             <img className='h-full w-full object-contain rounded-md'
                                 src={book.book_image}
                                 alt="Book Cover" />
@@ -125,6 +125,7 @@ function Book() {
                         <div className="card-body">
                             <h2 className="card-title">{book.title}</h2>
                             <p>{book.author}</p>
+                            <p className='mb-4'>{book.description}</p>
                             <div className='flex justify-between items-center'>
                                 <div className='flex items-center gap-3'>
                                     <div title='Add to favorite' onClick={() => addFav(book)} className={`${checkFav(book.rank) ? "text-red-500 fill-current" : ""} ${styles.transition400} hover:text-red-500 cursor-pointer`}>

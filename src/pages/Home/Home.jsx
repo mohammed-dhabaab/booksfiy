@@ -149,7 +149,7 @@ function Home() {
                 <div className='mt-10 grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mx-auto'>
                     {filteredBooks.length !== 0 ? (
                         filteredBooks.map((book, index) => (
-                            <div key={index} className="card bg-base-100 w-96 shadow-xl mx-auto border border-slate-800">
+                            <div key={index} className="card bg-base-100 max-w-96 shadow-xl mx-auto border border-slate-800">
                                 <div className='max-h-[400px] pt-5 overflow-hidden'>
                                     <img className='h-full w-full object-contain rounded-md'
                                         src={book.book_image}

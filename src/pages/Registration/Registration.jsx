@@ -48,7 +48,6 @@ function Registration() {
 
     }
     const validation = () => {
-        console.log("Validation check initiated")
 
         if (signup.name.length < 3 || signup.name.length > 10) {
             setValidationMessage("Name should be 3-10 letters")

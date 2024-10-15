@@ -12,7 +12,6 @@ function Navbar() {
     const navigate = useNavigate()
     const location = useLocation();
     const { hash, pathname, search } = location;
-    console.log(location)
 
     const logoutUser = () => {
         localStorage.removeItem("user")
